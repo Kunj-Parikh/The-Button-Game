@@ -1,2 +1,2 @@
 # 12Coder
-The website of 12Coder to be deployed(hopefully) on Netlif
+The Button Game, where you move your mouse around the box in the middle for the background to change colors.
