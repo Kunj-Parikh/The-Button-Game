@@ -5,16 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Projects: Dynamic background</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="buttonGame.html">1st project</a></li>
-        </ul>
-    </nav>
-    <h1>The Divider Game</h1>
-    <div id="divvy"></div>
     <style>
         body {
             background: whitesmoke;
@@ -39,6 +29,15 @@
             list-style-type: none;
         }
     </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="buttonGame.html">1st project</a></li>
+        </ul>
+    </nav>
+    <h1>The Divider Game</h1>
+    <div id="divvy"></div>
     <script>
         let div = document.querySelector('#divvy');
         div.addEventListener('mousemove', changeColor);
